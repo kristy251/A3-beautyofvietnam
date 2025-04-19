@@ -4,34 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty of Vietnam</title>
-    <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/1910.css"> 
+     <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+      function openWin() {
+          window.location.href = "ao_dai.html"; 
+      }
+      function open1910(){
+          window.location.href ="1910.html"
+      }
+      function open2040(){
+          window.location.href ="20-40.html"
+      }
+      function open5080(){
+          window.location.href ="50-80.html"
+      }
+      function open902000(){
+          window.location.href ="90-2000.html"
+      }
+      function openhome(){
+          window.location.href ="index.html"
+      }
+  
+      </script>
     
 </head>
-     </head>
     <body>
-    
-        <div class="header">
-            <h1></h1>
-            <p>LIFE OF VIETNAM</p>
-        </div>
-
+        <h1 style="background-color: #ff1f1f;font-weight: 300;color: #ffc31f;font-size: 120%;padding: 1%; text-align: center;">Beauty of Vietnam</h1>
+        <button class="tablink" onclick="openhome()">Home</button>
           <button class="tablink" onclick="openWin()">Ao Dai</button>
           <button class="tablink" onclick="open1910()">1910</button>
           <button class="tablink" onclick="open2040()">20-40</button>
-          <button class="tablink" onclick="open5070('50-70', this, 'orange')">50-70</button>
-          <button class="tablink" onclick="open902000('90-2000', this, 'orange')">90-2000</button>
-          
+          <button class="tablink" onclick="open5080()">50-80</button>
+          <button class="tablink" onclick="open902000()">90-2000</button>
+         
+    <!-- Images Columns Grid --> 
+    <div class="container">
+        <h2 class="title">Pop Culture of Vietnam</h2>
+        <p class="sub">In 1986 is when Vietnam Renovation policy started but were strongly more visible by the early 1990s. As for the 2000s, Vietnam was exposed to pop culture, global media, music especially through Japan, Korea, and the West. </p>
+        <style>
+            .sub{
+                margin-top: 1%;
+                margin-bottom: 6%;
+                font-size: 25px;
+                }
+                .columns{
+                margin-top:0;
+            }
+        </style>
+        <div class="photo-gallery">
 
-    <nav>
-      <a href= "home.html">Home</a>
-     </nav>
+            <div class="columns">
+                <div class="photo">
+                    <img src="images/yr90-2000-p1.jpg">
+                    <p class="mini-info">Vietnamese pop singer Đan Trường was known for his beautiful singing but was also known for his signature middle part hairstyle.</p>
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p2.jpeg">
+                    <p class="mini-info">Vietnam was influenced by the West. Flared low rise jeans, thin brows, highlights in hair was very Western during the time.</p>
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p6.webp">
+                    <p class="mini-info">Mây Trắng was one of the biggest girl group in Vietnam in the ealry 2000. Vietnamese pop culture music was very influenced by the Korean at the time. This include with outfits and make up.</p>
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p10.webp">
+                </div>
+            </div>
+            <div class="columns">
+                <div class="photo">
+                    <img src="images/yr90-2000-p3.jpg">
+                    <p class="mini-info">Side Part was a very popular. Thick side bangs with pin straight hair.</p>
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p8.jpg">
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p11.jpg">
+                    <p class="mini-info"></p>
+                </div>
+               
+            </div>
+            <div class="columns">
+                <div class="photo">
+                    <img src="images/yr90-2000-p7.webp">
+                    <p class="mini-info">Vietnamese popstar Mỹ Tâm was known for her powerful voice but she was also known as Vietnam fashion trend setter whith her fashion at the time. </p>
+                </div>
+                <div class="photo">
+                    <img src="images/yr90-2000-p5.jpg">
+                    <p class="mini-info">Ao Dai was still worn at this time. In this image, a group of girls wearing their school uniform. White Ao Dai was worn at school as school uniform, and still is til this day. </p>
+                </div>
+                <div class="photo">
+                  <img src="images/yr90-2000-p9.jpg">
+              </div>
+            </div>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 20%;color: rgb(68, 64, 64);">OCAD University Graphic Design 2025 Winter, Kristy Trinh</p>
 
     
-    <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-    function openWin() {
-        window.location.href = "ao_dai.html"; 
-    }
-    </script>
+   </body>
+  
+     

@@ -1,51 +1,27 @@
-.backtotop {
-    position: fixed;
-    right: 0.5%;
-    bottom: 1%;
-    font-size: 1rem;
-    border-radius: 75%;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(225, 209, 26);
-    filter: drop-shadow(2px 2px 20px yellow);
-    text-align: center;
-}
-
 *{
-    background-color: red;
-    scroll-behavior: smooth;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-
-
-.header {
-    padding: 0.1px;
-    text-align: center;
-    background: #ffe100;
-    color: rgb(243, 208, 9);
-    font-size: 20px;
+  background-color: #c5b19e;
+  scroll-behavior: smooth;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 /* Style the tab buttons */
 .tablink {
-    background-color: #ff0000;
-    color: rgb(255, 200, 0);
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 14px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 18%;
-    
-  }
+  background-color: #ffc31f;
+  color: rgb(255, 0, 0);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 16.66%;
+  max-width: 1224px;
+  margin: auto;
 
-  
-  
-  /* Change background color of buttons on hover */
+}
+ /* Change background color of buttons on hover */
   .tablink:hover {
     background-color: #ffffff;
   }
@@ -108,14 +84,15 @@ img{
 /* Intro About Website*/
 
 .Intro{
-  color: white;
-  font-size: 40px;
-  font-family: fantasy; 
+  color:rgb(68, 64, 64) ;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  text-align: left;
 }
 
-.grid{
-  display: grid;
-  grid-template-areas: 80px 80px;
-}
+/* Image and Text side by side */
+
+
+
 
   

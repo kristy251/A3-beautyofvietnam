@@ -8,56 +8,44 @@
 </head>
      </head>
     <body>
-    
-        <div class="header">
-            <h1></h1>
-            <p>LIFE OF VIETNAM</p>
-        </div>
-
+      <h1 style="background-color: #ff1f1f;font-weight: 300;color: #ffc31f;font-size: 120%;padding: 1%; text-align: center;">Beauty of Vietnam</h1>
 
     
       <!-- Tab links buttons-->
+      <button class="tablink" onclick="openhome()">Home</button>
       <button class="tablink" onclick="openWin()">Ao Dai</button>
       <button class="tablink" onclick="open1910()">1910</button>
       <button class="tablink" onclick="open2040()">20-40</button>
       <button class="tablink" onclick="open5070()">50-70</button>
       <button class="tablink" onclick="open902000()">90-2000</button>
-      <button class="tablink" onclick="openhome()">Home</button>
-
-          <nav class="homenav">
-            <a href= "home.html">Home</a>
-          </nav>
-    
-
-          <script>
-            function myFunction(x) {
-              x.classList.toggle("change");
-            }
-            function openWin() {
-                window.location.href = "ao_dai.html"; 
-            }
-            function open1910(){
-                window.location.href ="1910.html"
-            }
-            function open2040(){
-                window.location.href ="1910.html"
-            }
-            function open5070(){
-                window.location.href ="1910.html"
-            }
-            function open902000(){
-                window.location.href ="1910.html"
-            }
-            function openhome(){
-                window.location.href ="1910.html"
-            }
-        
+      
+   
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        function openWin() {
+            window.location.href = "ao_dai.html"; 
+        }
+        function open1910(){
+            window.location.href ="1910.html"
+        }
+        function open2040(){
+            window.location.href ="20-40.html"
+        }
+        function open5080(){
+          window.location.href ="50-80.html"
+      }
+        function open902000(){
+            window.location.href ="90-2000.html"
+        }
+        function openhome(){
+            window.location.href ="index.html"
+        }
+        </script>
         
             </script>
-
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
@@ -67,12 +55,7 @@ img {vertical-align: middle;}
 </style>
 </head>
 <body>
-
-
   <h2 class="title">Vietnamese Trademark</h2>
-
-
-
 <!-- Slide Shows 1 -->
 <div class="slideshow-container">
   <div class="mySlides1">
@@ -102,6 +85,13 @@ img {vertical-align: middle;}
 </div>
 
 <!-- Slide Show 2-->
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="images/aodai-p8.webp" style="width:100%">
+    <h1> When was it made?</h1>
+    <p>The Ao Dai originated in the 18th century, during the Nguyen dynasty. Throughout it times, it evolved to a áo ngũ thân, a five-piece dress, that was inspired by the Chinese and Cham dress. From there it starts to evolve to a long tunic dress with the slits on the side that is paired with trouser that you wear underneath. </p> 
+  </div>
+ 
 <div class="slideshow-container">
   <div class="mySlides2">
     <img src="images/Screenshot 2025-04-03 at 5.31.04 PM.png" style="width:100%">
@@ -138,13 +128,13 @@ img {vertical-align: middle;}
     <h1> When was it made?</h1>
     <p>The Ao Dai originated in the 18th century, during the Nguyen dynasty.Throughout it times, it evolved to a áo ngũ thân, a five-piece dress, that was inspired by the Chinese and Cham dress. From there it starts to evolve to a long tunic dress with the slits on the side that is paired with trouser that you wear underneath. </p> 
   </div>
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
 
   <!-- Slide Show 3-->
-   <div class="mySlide3">
-    <img src="images/aodai_p3.jpeg" style="width: 100%">
-    
+   
 
-   </div>
   
   
    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
@@ -172,6 +162,7 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 </script>
+<p style="text-align: center; margin-top: 20%;color: rgb(68, 64, 64);">OCAD University Graphic Design 2025 Winter, Kristy Trinh</p>
 
 </body>
 </html> 
@@ -180,8 +171,6 @@ function showSlides(n, no) {
 
     
     
-    </body>
-    </html>
     
 
           
